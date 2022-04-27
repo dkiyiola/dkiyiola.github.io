@@ -219,6 +219,10 @@ a {
   padding-bottom: 16px;
 }
 
+.newanchor{
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .title {
     display: -webkit-box;
