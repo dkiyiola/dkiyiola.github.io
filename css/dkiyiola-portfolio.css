@@ -7,14 +7,14 @@ h1 {
   font-size: 64px;
   line-height: 100%;
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h2 {
   font-weight: 400;
   margin-top: 24px;
   font-family: Spartan, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 100%;
   text-align: center;
 }
@@ -22,10 +22,11 @@ h2 {
 h3 {
   margin-top: 24px;
   font-family: Spartan, sans-serif;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 100%;
-  font-weight: 300;
+  font-weight:700;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -35,8 +36,8 @@ h4 {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  font-family: Didact Gothic, sans-serif;
-  font-weight: normal;
+  font-family: Spartan, sans-serif;
+  font-weight: 400;
 }
 
 h5 {
@@ -61,7 +62,7 @@ a {
   border-style: none;
   border-width: 1px;
   border-color: #0f4d7c;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Spartan', sans-serif;
   color: #333;
 }
 
@@ -105,6 +106,10 @@ a {
   text-align: center;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.offcenter {
+  padding-left: 80px;
 }
 
 .subheading {
@@ -187,6 +192,7 @@ a {
   font-weight: 400;
   text-decoration: underline;
   mix-blend-mode: normal;
+  color: #0f4d7c;
 }
 
 .section {
